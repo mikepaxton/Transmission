@@ -28,5 +28,13 @@ cd transmission
 ### Step 4: If no errors, stop the container
 `Ctrl + c`
 
+### Step 5: Create an Application Menu item
+- Open the transmission.desktop file and change for the correct port # from step #2 above.
+- `cp transmission.desktop ~/.local/share/applications`
+- From the Application Menu choose Menu Editor from Favorites
+- Look inside the Internet Submenu for Transmission. 
+- If it doesn't have an icon, click on the icon square and start typing transmission. Several icons for Transmission come up.  Choose any one of them.
+- Save changes
+
 ## Additional Information
 
