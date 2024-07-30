@@ -5,8 +5,8 @@ services:
     env_file:
       - .env
     environment:
-      - PUID=1001
-      - PGID=1001
+      - PUID=1000
+      - PGID=1000
       - TZ=America/Los_Angeles
       - USER=${USER}
       - PASS=${PASSWORD}
@@ -15,7 +15,7 @@ services:
       - /data/transmission/downloads:/downloads
       - /data/transmission/watch:/watch
     ports:
-      - 8130:9091
+      - 8170:9091
       - 51413:51413
       - 51413:51413/udp
     restart: unless-stopped
