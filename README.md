@@ -5,7 +5,7 @@
 - Docker Compose installed on your Raspberry Pi
 
 ## Sources:
- - https://github.com/jketterl/transmission.git
+ - https://hub.docker.com/r/linuxserver/transmission
 
 ## Instructions
 ### Step 1: Clone the Repository
