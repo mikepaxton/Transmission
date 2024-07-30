@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Transmission
+Comment=A Bit Torrent Client
+Exec=/usr/bin/docker compose -f /home/admin/source/transmission/docker-compose.yml up -d
+Icon=
+Terminal=false
+Categories=Internet;
