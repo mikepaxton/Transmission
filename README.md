@@ -15,7 +15,7 @@ cd transmission
 ```
 
 ### Step 2: Edit docker-compose.yml
-- Change the port if needed.  In this example 8170 is the opened hosts port and 9091 is the contianers port number.
+- Change the port if needed.  In this example 8170 is the opened hosts port and 9091 is the containers port number.
 - Change PUID and GUID to reflect the ID of admin
 - Change TZ to reflect your timezone.
 
@@ -38,3 +38,4 @@ cd transmission
 
 ## Additional Information
 
+There are additional variables that can be used, please see above source for more information.
